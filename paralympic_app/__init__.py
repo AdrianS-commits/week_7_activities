@@ -7,7 +7,7 @@ def create_app():
     :rtype: Returns a configured Flask object
     """
     app = Flask(__name__)
-    app.config["SECRET_KEY"] = "add_your_secret_key_here"
+    app.config["SECRET_KEY"] = "2007539874039847"
 
     # Register the api blueprint for the routes in api_routes.py
     from .api_routes import bp
